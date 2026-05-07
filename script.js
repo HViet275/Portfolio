@@ -66,7 +66,7 @@ document.addEventListener("DOMContentLoaded", () => {
   tools: ["BigQuery", "SQL", "Looker Studio", "Python"],
   insight:
     "The project shows how rule-based attribution can turn fragmented campaign touchpoints into a structured decision-making view, helping teams understand which channels, segments, and product journeys are actually driving conversion rather than just generating engagement.",
-  link: "YOUR_DASHBOARD_LINK",
+  link: "https://datastudio.google.com/reporting/9eb6b4de-b4ef-4c00-9a8b-0370cb7b72b3",
   linkLabel: "View Dashboard",
   image: "images/jn_performance.png",
   placeholder: "Journey Performance Attribution"
