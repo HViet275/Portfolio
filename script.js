@@ -138,7 +138,43 @@ document.addEventListener("DOMContentLoaded", () => {
       linkLabel: "View Project on GitHub",
       image: "images/recommend.png",
       placeholder: "Recommendation System"
-    }
+    },
+    {
+  id: "journey-performance-attribution",
+  domain: "Marketing Analytics / Attribution",
+  title: "Journey Performance Attribution for Credit Card & Loan Campaigns",
+  shortDescription:
+    "Cross-channel attribution dashboard that measures how mail, Zalo, website impression, and website click touchpoints contribute to Credit Card and Loan conversions.",
+  hoverDescription:
+    "A BigQuery and Looker Studio project that builds journey attribution logic across multiple touchpoints and links them to both app and offline conversions.",
+  summary:
+    "This project is an end-to-end journey performance attribution solution built for Credit Card and Loan campaigns. It connects user touchpoints across mail, Zalo, website impression, and website click channels to downstream conversions, then visualizes campaign, channel, and segment performance through an interactive dashboard.",
+  problem:
+    "Marketing teams often see delivery, open, and click metrics, but still lack a clear view of which touchpoints truly contribute to conversion. The goal was to design an attribution framework that can measure channel contribution, compare product journeys, and support better evaluation of campaign effectiveness across both app and offline conversion flows.",
+  analysisPoints: [
+    "Built attribution logic with channel-specific conversion windows for mail, Zalo, website impression, and website click touchpoints",
+    "Applied priority-based touchpoint selection to assign conversion credit consistently across overlapping user journeys",
+    "Linked campaign journeys to both app and offline conversions for Credit Card and Loan products",
+    "Created event-level and user-level performance metrics to evaluate campaign effectiveness from multiple perspectives",
+    "Designed dashboard views for overview, attribution performance, and segment insights to support business storytelling and decision-making"
+  ],
+  metrics: [
+    "Attributed Conversions",
+    "User-level CR",
+    "Event-level CR",
+    "App Share",
+    "Avg Days to Convert",
+    "Attributed Conversions by Touchpoint",
+    "Segment Performance"
+  ],
+  tools: ["BigQuery", "SQL", "Looker Studio", "Python"],
+  insight:
+    "The project shows how rule-based attribution can turn fragmented campaign touchpoints into a structured decision-making view, helping teams understand which channels, segments, and product journeys are actually driving conversion rather than just generating engagement.",
+  link: "YOUR_DASHBOARD_LINK",
+  linkLabel: "View Dashboard",
+  image: "images/jn_performance.png",
+  placeholder: "Journey Performance Attribution"
+}
   ];
 
   const projectsGrid = document.getElementById("projects-grid");
